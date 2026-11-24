@@ -68,15 +68,15 @@ export const portfolioData = {
   projects: [
     {
       id: "agrolink",
-      title: "AgroLink – Smart Agriculture Marketplace",
-      category: "Full-Stack & Enterprise",
+      title: "AgroLink – Smart Agriculture Marketplace & Supply Chain Platform",
+      category: "FULL-STACK & ENTERPRISE",
       featured: true,
-      description: "A full-stack agricultural marketplace platform connecting farmers directly with commercial buyers. Implemented crop listing management, image validation, price range filtering, order history tracking, and automated confirmation emails.",
-      techStack: ["Java", "Spring Boot", "MySQL", "JavaScript", "BCrypt", "Tailwind CSS"],
+      description: "An enterprise digital agriculture platform connecting smallholder farmers directly with commercial buyers, agricultural suppliers, and logistics fleets. Designed to eliminate predatory middlemen, ensure price transparency, and streamline agricultural commerce from seed to supermarket.",
+      techStack: ["Java 17", "Spring Boot 3", "Spring Security", "JWT", "React", "Tailwind CSS", "MySQL", "Vite", "REST API"],
       highlights: [
-        "Role-Based Access Control (FARMER, BUYER, ADMIN) with session security",
-        "Crop inventory tracking, pagination, soft delete mechanism, and location filters",
-        "Complete order pipeline: PENDING -> CONFIRMED -> DELIVERED"
+        "Multi-Role Portals & Security: Built 5 tailored stakeholder workspaces (Farmer, Buyer, Supplier, Logistics, Admin) protected by Spring Security, stateless JWT authentication, and automated session interceptors.",
+        "Traceability & Escrow Protection: Implemented verifiable batch passport tracking (BATCH-xxxx) for origin verification, along with milestone-based escrow payment workflows and dispute resolution.",
+        "Agricultural Intelligence & Logistics: Integrated smart crop advisory, harvest forecasting analytics, machinery rentals, and automated order dispatch tracking across Sri Lankan farming districts."
       ],
       github: "https://github.com/DulithThenuka/agrolink",
       live: "https://github.com/DulithThenuka/agrolink"

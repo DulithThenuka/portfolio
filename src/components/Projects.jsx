@@ -122,13 +122,25 @@ export default function Projects() {
 
                 {/* Highlights */}
                 {project.highlights && project.highlights.length > 0 && (
-                  <div className="space-y-1.5 pt-2 border-t border-navy-700/60">
-                    {project.highlights.map((item, idx) => (
-                      <div key={idx} className="flex items-start gap-2 text-xs text-slate-300">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-blue-400 shrink-0 mt-0.5" />
-                        <span>{item}</span>
-                      </div>
-                    ))}
+                  <div className="space-y-2 pt-2 border-t border-navy-700/60">
+                    {project.highlights.map((item, idx) => {
+                      const colonIndex = item.indexOf(':');
+                      return (
+                        <div key={idx} className="flex items-start gap-2 text-xs text-slate-300 leading-relaxed">
+                          <CheckCircle2 className="w-3.5 h-3.5 text-blue-400 shrink-0 mt-0.5" />
+                          <span>
+                            {colonIndex !== -1 ? (
+                              <>
+                                <strong className="text-slate-100 font-semibold">{item.slice(0, colonIndex + 1)}</strong>
+                                <span className="text-slate-400">{item.slice(colonIndex + 1)}</span>
+                              </>
+                            ) : (
+                              item
+                            )}
+                          </span>
+                        </div>
+                      );
+                    })}
                   </div>
                 )}
               </div>
