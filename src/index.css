@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    overflow-x: hidden;
+    background-color: #070b19;
+    color: #cbd5e1;
+  }
+}
+
+/* Dark Navy Glassmorphism */
+.glass-panel {
+  background: rgba(11, 18, 38, 0.72);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(59, 130, 246, 0.12);
+}
+
+.glass-panel-glow {
+  background: rgba(15, 24, 51, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(139, 92, 246, 0.28);
+  box-shadow: 0 0 30px -5px rgba(59, 130, 246, 0.2);
+}
+
+.navy-card {
+  background-color: #0d152b;
+  border: 1px solid #1c2b50;
+}
+
+.navy-card:hover {
+  border-color: #3b82f6;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #070b19;
+}
+::-webkit-scrollbar-thumb {
+  background: #1c2b50;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+}
+
+.font-mono {
+  font-family: 'Fira Code', monospace;
+}
