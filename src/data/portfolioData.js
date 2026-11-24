@@ -7,7 +7,7 @@ export const portfolioData = {
     bio: "Motivated Software Engineering Undergraduate and Full Stack Developer with a strong foundation in software and web application development. Experienced in developing user-friendly interfaces, implementing backend functionality, and integrating databases to build practical software solutions. Skilled in problem-solving, application development, and working with modern technologies. Passionate about building innovative, scalable applications, continuously improving technical skills, and contributing to collaborative software development projects.",
     careerGoals: "Aiming to leverage full-stack capabilities, cloud-native architectures, and software engineering design principles to engineer high-throughput systems and resilient digital platforms while growing as an Associate Software Engineer.",
     location: "Colombo, Sri Lanka",
-    phone: "071-566783",
+    phone: "0715667783",
     email: "duliththenuka912@gmail.com",
     github: "https://github.com/DulithThenuka",
     linkedin: "https://www.linkedin.com/in/dulith-thenuka-0a85443b0",
@@ -18,11 +18,11 @@ export const portfolioData = {
   stats: [
     { label: "Institution", value: "NSBM Green University" },
     { label: "Core Focus", value: "Java & Spring Boot" },
-    { label: "Featured Projects", value: "8+ Built" },
+    { label: "Public Repositories", value: "10+ on GitHub" },
     { label: "Tech Stack", value: "Full-Stack Web" }
   ],
 
-  // Core highlighted skills as requested: Java, Python, React, Angular, Spring Boot, MySQL
+  // Core highlighted skills: Java, Python, React, Angular, Spring Boot, MySQL
   coreHighlights: [
     { name: "Java", category: "Backend", level: "Proficient" },
     { name: "Python", category: "Language & AI", level: "Proficient" },
@@ -71,44 +71,44 @@ export const portfolioData = {
       title: "AgroLink – Smart Agriculture Marketplace",
       category: "Full-Stack & Enterprise",
       featured: true,
-      description: "A web-based digital agriculture marketplace connecting farmers directly with commercial buyers. Implemented crop listing management, market pricing insights, and order workflows to eliminate intermediaries.",
-      techStack: ["Java", "Spring Boot", "MySQL", "React", "REST API", "Tailwind CSS"],
+      description: "A full-stack agricultural marketplace platform connecting farmers directly with commercial buyers. Implemented crop listing management, image validation, price range filtering, order history tracking, and automated confirmation emails.",
+      techStack: ["Java", "Spring Boot", "MySQL", "JavaScript", "BCrypt", "Tailwind CSS"],
       highlights: [
-        "Built responsive marketplace functionality with Spring Boot REST controllers",
-        "Implemented secure crop catalog, inventory tracking, and transaction records in MySQL",
-        "Empowers local agricultural suppliers with fair pricing transparency"
+        "Role-Based Access Control (FARMER, BUYER, ADMIN) with session security",
+        "Crop inventory tracking, pagination, soft delete mechanism, and location filters",
+        "Complete order pipeline: PENDING -> CONFIRMED -> DELIVERED"
       ],
-      github: "https://github.com/DulithThenuka",
-      live: "https://github.com/DulithThenuka"
-    },
-    {
-      id: "oceansafe",
-      title: "OceanSafe – Maritime Safety & Hazard Warning System",
-      category: "Emergency & GIS",
-      featured: true,
-      description: "A digital safety platform built for coastal fishing communities, port authorities, and maritime surveillance. Provides real-time marine weather alerts, high-risk ocean zone mapping, and emergency distress beacon logging.",
-      techStack: ["Java", "Spring Boot", "React", "MySQL", "Leaflet GIS", "Tailwind CSS"],
-      highlights: [
-        "Interactive hazard mapping with live maritime coordinates and weather telemetry",
-        "Automated emergency SOS event broadcasting and harbor dispatch notifications",
-        "High-performance backend API with optimized geospatial queries"
-      ],
-      github: "https://github.com/DulithThenuka",
-      live: "https://github.com/DulithThenuka"
+      github: "https://github.com/DulithThenuka/agrolink",
+      live: "https://github.com/DulithThenuka/agrolink"
     },
     {
       id: "disaster-management",
-      title: "Smart National Disaster Management Platform",
-      category: "Public Sector & IoT",
+      title: "Araksha-LK & Humanitarian Crisis Platform",
+      category: "Public Sector & GIS",
       featured: true,
-      description: "An integrated disaster preparedness and relief coordination platform. Tracks flood, landslide, and adverse weather incidents across provinces, coordinating rescue operations, shelter allocations, and resource logistics.",
-      techStack: ["Spring Boot", "Angular / React", "MySQL", "REST APIs", "WebSocket"],
+      description: "A comprehensive disaster relief management platform coordinating emergency response during natural disasters in Sri Lanka. Features emergency incident reporting, volunteer allocation, shelter management, and interactive crisis mapping.",
+      techStack: ["Spring Boot", "React", "Leaflet GIS", "MySQL", "WebSocket", "Tailwind CSS"],
       highlights: [
-        "Real-time incident reporting dashboard with severity status triage",
-        "Automated relief center inventory management and volunteer allocation",
-        "Multi-agency role-based authorization for civil defense teams and responders"
+        "Real-time emergency incident reporting with severity triage and provincial tracking",
+        "Interactive crisis mapping with Leaflet.js for shelter capacity and relief allocation",
+        "Volunteer coordination portal with role-based dispatch workflows"
       ],
-      github: "https://github.com/DulithThenuka",
+      github: "https://github.com/DulithThenuka/Araksha-LK-Disaster-Relief-System",
+      live: "https://github.com/DulithThenuka/humanitarian-crisis-management-platform"
+    },
+    {
+      id: "oceansafe",
+      title: "OceanSafe – Marine Safety & Hazard Alert System",
+      category: "Emergency & IoT",
+      featured: true,
+      description: "A maritime safety telemetry platform built for coastal fishing communities and harbor authorities. Provides real-time marine weather alert broadcasts, high-risk ocean zone mapping, and emergency distress beacon logging.",
+      techStack: ["Java", "Spring Boot", "React", "MySQL", "Leaflet GIS", "Tailwind CSS"],
+      highlights: [
+        "Interactive hazard mapping with live maritime coordinates and weather telemetry",
+        "Automated emergency SOS broadcasting and harbor dispatch notifications",
+        "High-performance backend API with optimized geospatial queries"
+      ],
+      github: "https://github.com/DulithThenuka/Araksha-LK-Disaster-Relief-System",
       live: "https://github.com/DulithThenuka"
     },
     {
@@ -116,70 +116,84 @@ export const portfolioData = {
       title: "GrowLink – Skill Sharing & Collaboration Platform",
       category: "Industrial Project",
       featured: true,
-      description: "An industrial-grade platform that helps users share skills, discover learning opportunities, connect with mentors, and collaborate on software projects.",
-      techStack: ["Spring Boot", "Angular / React", "MySQL", "REST APIs", "WebSockets"],
+      description: "An industrial-grade platform designed to help users share skills, discover like-minded collaborators, request learning opportunities, and build meaningful software projects together.",
+      techStack: ["Java", "Spring Boot", "React / Angular", "MySQL", "REST APIs"],
       highlights: [
-        "Implemented user profile portfolios, skill requests, and collaborative project workspaces",
-        "Engineered real-time messaging, notifications, and connection workflows using Spring Boot"
+        "Engineered user profiles, skill requests, project collaboration workspaces, and messaging",
+        "Spring Boot microservice backend with robust notification pipelines"
       ],
-      github: "https://github.com/DulithThenuka",
-      live: "https://github.com/DulithThenuka"
+      github: "https://github.com/DulithThenuka/GrowLink",
+      live: "https://github.com/DulithThenuka/GrowLink"
     },
     {
       id: "ai-devsec",
-      title: "AI DevSec Platform – AI-Powered DevOps & Security",
+      title: "AI DevSec Platform – DevOps & Vulnerability Scanner",
       category: "AI & Cloud",
       featured: false,
-      description: "An AI-powered developer security and code inspection platform focused on repository analysis, vulnerability detection, and automated intelligent code reviews.",
-      techStack: ["Python", "FastAPI", "Docker", "AWS", "AI Models", "Git APIs"],
+      description: "An AI-powered DevOps and security platform built to inspect code repositories, automate static analysis vulnerability detection, generate AI-assisted code reviews, and streamline containerized CI/CD deployments.",
+      techStack: ["Java", "Spring Boot", "React", "PostgreSQL", "Docker", "AWS", "JWT"],
       highlights: [
-        "Integrates static code analysis with AI models to pinpoint security vulnerabilities",
-        "Explored modern containerized deployment and automated CI pipeline checks"
+        "Automated repository scanning and vulnerability triage with AI review insights",
+        "JWT-secured REST API architecture containerized with Docker for AWS deployment"
       ],
-      github: "https://github.com/DulithThenuka",
-      live: "https://github.com/DulithThenuka"
+      github: "https://github.com/DulithThenuka/ai-devsec-platform",
+      live: "https://github.com/DulithThenuka/ai-devsec-platform"
     },
     {
       id: "studyflow-ai",
-      title: "StudyFlow AI – AI-Powered Learning Platform",
-      category: "AI & Web",
+      title: "StudyFlow AI – Smart Study Planner & Focus SaaS",
+      category: "AI & Web SaaS",
       featured: false,
-      description: "An AI-focused educational application designed to enhance student study efficiency through automated summary generation, intelligent quiz synthesis, and study schedule tracking.",
-      techStack: ["React", "Python", "Tailwind CSS", "REST API", "AI APIs"],
+      description: "A full-stack smart study planner application designed to help students organize tasks, manage subjects, improve focus with Pomodoro sessions, and track academic analytics through a modern SaaS interface.",
+      techStack: ["PHP MVC", "MySQL", "JavaScript", "Chart.js", "Custom UI"],
       highlights: [
-        "Applied modern web architecture to build an interactive student learning workspace",
-        "Integrated AI endpoints to generate contextual study materials and productivity tools"
+        "Smart task recommendations, deadline triage, and difficulty ratings",
+        "Integrated Pomodoro focus sessions and interactive Chart.js analytics"
       ],
-      github: "https://github.com/DulithThenuka",
-      live: "https://github.com/DulithThenuka"
+      github: "https://github.com/DulithThenuka/studyflow-ai",
+      live: "https://github.com/DulithThenuka/studyflow-ai"
     },
     {
       id: "nextgen-mobile-care",
-      title: "NextGen Mobile Care – E-Commerce & Repair Service",
+      title: "NextGen Mobile Care – Repair & E-Commerce",
       category: "Full-Stack",
       featured: false,
-      description: "A comprehensive web-based platform for mobile phone repair appointment bookings and an electronics e-commerce store with full shopping cart and order tracking.",
+      description: "A web-based platform for mobile repair bookings, diagnostic status tracking, and an electronics e-commerce store with full shopping cart and order processing.",
       techStack: ["PHP MVC", "MySQL", "Tailwind CSS", "JavaScript"],
       highlights: [
-        "Built modular MVC architecture for repair status diagnostics and product catalogs",
-        "Designed a responsive and modern mobile-first interface using Tailwind CSS"
+        "Modular MVC architecture separating repair diagnostic workflow from e-commerce",
+        "Clean, responsive mobile-first UI designed using Tailwind CSS"
       ],
-      github: "https://github.com/DulithThenuka",
-      live: "https://github.com/DulithThenuka"
+      github: "https://github.com/DulithThenuka/nextgen-mobile-care",
+      live: "https://github.com/DulithThenuka/nextgen-mobile-care"
     },
     {
       id: "gamehub-pro",
       title: "GameHub Pro – Digital Game Library Web App",
       category: "Web Application",
       featured: false,
-      description: "A full-stack application for browsing, categorizing, and managing an extensive catalog of digital video games with user reviews and ratings.",
-      techStack: ["Java", "Spring Boot", "MySQL", "Thymeleaf", "Bootstrap/Tailwind"],
+      description: "A full-stack application for managing and exploring a curated digital game catalog with dynamic filtering, rating breakdowns, and database persistence.",
+      techStack: ["Java", "Spring Boot", "MySQL", "Thymeleaf", "HTML/CSS"],
       highlights: [
-        "Implemented Spring Data JPA queries with MySQL database persistence",
-        "Built dynamic server-rendered pages for library discovery and game analytics"
+        "Spring Data JPA integration with MySQL relational database",
+        "Dynamic server-rendered Thymeleaf templates for responsive game browsing"
       ],
-      github: "https://github.com/DulithThenuka",
-      live: "https://github.com/DulithThenuka"
+      github: "https://github.com/DulithThenuka/gamehub-pro",
+      live: "https://github.com/DulithThenuka/gamehub-pro"
+    },
+    {
+      id: "fleetpro",
+      title: "FleetPro – Enterprise Fleet Management",
+      category: "Enterprise System",
+      featured: false,
+      description: "An enterprise fleet management application designed for corporate transport logistics, vehicle maintenance scheduling, fuel expenditure tracking, and driver assignments.",
+      techStack: ["C#", "WPF", ".NET 10", "SQL Server", "Clean Architecture"],
+      highlights: [
+        "Built with Clean Architecture patterns, repository abstractions, and dependency injection",
+        "Real-time fleet diagnostics, service log audits, and expense reports"
+      ],
+      github: "https://github.com/DulithThenuka/FleetPro",
+      live: "https://github.com/DulithThenuka/FleetPro"
     }
   ],
 
