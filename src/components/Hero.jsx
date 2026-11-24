@@ -67,7 +67,9 @@ export default function Hero() {
               {/* Downloadable CV Button */}
               <a
                 href={personal.resumeUrl}
-                download
+                download="Dulith_Thenuka_CV.pdf"
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-navy-850 hover:bg-navy-800 text-slate-200 font-semibold text-sm border border-navy-700 hover:border-blue-500/50 transition-all hover:-translate-y-0.5 shadow-sm"
               >
                 <Download className="w-4 h-4 text-purple-400" />

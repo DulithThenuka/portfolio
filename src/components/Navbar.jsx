@@ -81,7 +81,9 @@ export default function Navbar() {
             </a>
             <a
               href={portfolioData.personal.resumeUrl}
-              download
+              download="Dulith_Thenuka_CV.pdf"
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white font-semibold text-xs transition-all shadow-md shadow-blue-900/30 hover:shadow-blue-600/40"
             >
               <FileDown className="w-3.5 h-3.5" />
@@ -138,7 +140,9 @@ export default function Navbar() {
             </div>
             <a
               href={portfolioData.personal.resumeUrl}
-              download
+              download="Dulith_Thenuka_CV.pdf"
+              target="_blank"
+              rel="noreferrer"
               className="px-4 py-2 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold text-xs flex items-center gap-1.5"
             >
               <FileDown className="w-3.5 h-3.5" />

@@ -11,7 +11,7 @@ export const portfolioData = {
     email: "duliththenuka912@gmail.com",
     github: "https://github.com/DulithThenuka",
     linkedin: "https://www.linkedin.com/in/dulith-thenuka-0a85443b0",
-    resumeUrl: "#", // Link to resume PDF / download
+    resumeUrl: "/Dulith_Thenuka_CV.pdf", // Link to resume PDF / download
     status: "Open for Software Engineering Opportunities"
   },
 
